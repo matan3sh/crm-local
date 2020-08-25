@@ -1,0 +1,16 @@
+// Setup
+@import 'setup/variables';
+@import 'setup/typography';
+
+// Basics
+@import 'basic/base';
+
+// App
+@import 'components/app/table';
+@import 'components/app/cards';
+
+// Pages
+@import 'components/pages/home';
+
+// Layout
+@import 'components/layout/sidemenu';
