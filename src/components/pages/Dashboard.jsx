@@ -4,7 +4,7 @@ import { loadCustomers } from '../../store/customers/actions';
 import { loadOrders } from '../../store/orders/actions';
 import { loadProducts } from '../../store/products/actions';
 
-import { Table, Cards } from '../';
+import { Table, Cards } from '../app';
 
 const Home = ({
   loadCustomers,

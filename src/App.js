@@ -3,7 +3,8 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { AnimatedSwitch } from 'react-router-transition';
 import { mapStyles, bounceTransition } from './animation';
 
-import { Sidemenu, Dashboard } from './components';
+import { Sidemenu } from './components/layout';
+import { Dashboard } from './components/pages';
 
 import Messenger from './components/pages/Messenger';
 import Projects from './components/pages/Projects';
