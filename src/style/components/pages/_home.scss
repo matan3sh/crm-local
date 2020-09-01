@@ -4,3 +4,7 @@
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 3rem;
 }
+
+.home__chart {
+  place-items: center;
+}
