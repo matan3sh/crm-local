@@ -1,5 +1,6 @@
 const gDefaultCustomers = [
   {
+    _id: '1jkMnbfgBv',
     name: 'Sam Adams',
     gender: 'Male',
     email: 'sam@gmail.com',
@@ -8,6 +9,7 @@ const gDefaultCustomers = [
     orders: 2,
   },
   {
+    _id: 'vnju89Pkmb',
     name: 'James Patterson',
     gender: 'Female',
     email: 'james@gmail.com',
@@ -16,6 +18,7 @@ const gDefaultCustomers = [
     orders: 9,
   },
   {
+    _id: 'egb5fdMk09',
     name: 'Steve Witon',
     gender: 'Male',
     email: 'steve@gmail.com',
@@ -24,6 +27,7 @@ const gDefaultCustomers = [
     orders: 3,
   },
   {
+    _id: '4fgkmnVgser',
     name: 'John Doe',
     gender: 'Male',
     email: 'john@gmail.com',
@@ -32,6 +36,7 @@ const gDefaultCustomers = [
     orders: 1,
   },
   {
+    _id: 'ecnjfhd654',
     name: 'Steve Kerr',
     gender: 'Male',
     email: 'steve@gmail.com',

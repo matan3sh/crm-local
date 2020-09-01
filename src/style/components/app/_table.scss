@@ -6,6 +6,7 @@
   border-radius: 5px 5px 0 0;
   overflow: hidden;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  width: 100%;
 }
 
 .content-table thead tr {
@@ -33,7 +34,17 @@
   border-bottom: 2px solid $bg-color;
 }
 
-.content-table tbody tr.active-row {
+.content-table tbody tr:hover {
+  cursor: pointer;
   font-weight: bold;
   color: $first-color;
+}
+
+th,
+td {
+  text-transform: capitalize;
+}
+
+.no-cap {
+  text-transform: none;
 }

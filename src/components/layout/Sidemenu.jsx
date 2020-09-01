@@ -15,7 +15,7 @@ const Sidemenu = () => {
       <nav className='sidenav'>
         <div>
           <div className='sidenav__brand'>
-            <span class='material-icons' onClick={onToggle}>
+            <span className='material-icons' onClick={onToggle}>
               menu_open
             </span>
             <a href='#/' className='sidenav__logo'>
@@ -29,7 +29,7 @@ const Sidemenu = () => {
               className='sidenav__link'
               activeClassName='sidenav-active'
             >
-              <span class='material-icons'>dashboard</span>
+              <span className='material-icons'>dashboard</span>
               <span className='sidenav__name'>Dashboard</span>
             </NavLink>
             <NavLink

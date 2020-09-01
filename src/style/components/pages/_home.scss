@@ -1,1 +1,6 @@
-
+.home__table,
+.home__chart {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 3rem;
+}

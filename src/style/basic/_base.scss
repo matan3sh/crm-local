@@ -11,7 +11,6 @@ body {
   font-family: $body-font;
   font-size: $normal-font-size;
   transition: 0.5s;
-  overflow: hidden;
   background-color: $background;
 }
 
@@ -35,6 +34,10 @@ a {
 }
 
 .switch-wrapper > div {
-  width: 1500px;
+  width: 98%;
   position: absolute;
+}
+
+.mt-1 {
+  margin-top: 1rem;
 }
